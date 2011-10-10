@@ -1,0 +1,17 @@
+---
+:environment: 'staging'
+:logfile: '/tmp/sinastrano.log'
+:project: '/tmp/your_app'
+:repo: 'git@github.com:username/your_app.git'
+:logins:
+  -
+    :username: 'admin'
+    :password_hash: 'dad3a37aa9d50688b5157698acfd7aee'
+  -
+    :username: 'nupsi'
+    :password_hash: 'dad3a37aa9d50688b5157698acfd7aee'
+:deploy_mail_from:
+  - 'Deployments <deploy@sinastrano.de>'
+  - 'Other Deployments <deploy2@sinastrano.de>'
+:deploy_mail_to:
+  - 'Deployments <deploy@sinastrano.de>'
